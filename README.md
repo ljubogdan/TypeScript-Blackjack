@@ -1,6 +1,6 @@
 # Blackjack Card Game (TypeScript)
 
-A simple command-line Blackjack (21) game written in TypeScript using Node.js.
+A command-line Blackjack (21) game written in TypeScript using Node.js.
 
 ---
 
@@ -41,18 +41,7 @@ This is a simplified version of Blackjack with no options like splitting, doubli
 
 ## How to Run
 
-1. Clone the repository:  
-
-    git clone <repository-url>
-
-2. Install dependencies:  
-
-    npm install
-
-3. Start the game:  
-
-    npm start
-
+- Add instructions later!!!
 
 ---
 
