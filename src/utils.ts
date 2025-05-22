@@ -5,7 +5,7 @@ export function shuffleArray<T>(array: T[]) : void {
     }
 }
 
-export function createHybridArray(array1: string[], array2: string[]) : string[] {
+export function createHybridArray(array1: readonly string[], array2: readonly string[]) : string[] {
     const array : string[] = [];
     for (let i = 0; i < array1.length; i++) {
         for (let j = 0; j < array2.length; j++) {

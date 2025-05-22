@@ -1,5 +1,5 @@
-const symbols: string[] = ["♠", "♥", "♦", "♣"];
-const ranks: string[] = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"];
+const symbols: readonly string[] = ["♠", "♥", "♦", "♣"];
+const ranks: readonly string[] = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"];
 
 import { createHybridArray } from "./utils";
 
@@ -10,11 +10,11 @@ const symbolsRanks : string[] = createHybridArray(symbols, ranks)
 import { determineValue } from "./utils";
 
 export class Card {
-    value: number | number[]
+    readonly value: number | number[]
 
     constructor(
-        public symbol: string,
-        public rank: string
+        public readonly symbol: string,
+        public readonly rank: string
     ) {
         this.value = determineValue(this.rank)
     }
