@@ -1,5 +1,14 @@
 {
   "devDependencies": {
+    "@types/prompt-sync": "^4.2.3",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "npm run build && node dist/main.js"
   }
 }
